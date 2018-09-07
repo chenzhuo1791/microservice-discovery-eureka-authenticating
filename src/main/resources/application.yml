@@ -1,0 +1,16 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#    eureka-server-u-r-l-context:  http://127.0.0.1:8761/eureka
+    eureka-server-u-r-l-context:  http://user:1234@localhost:8761/eureka
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+#    随机 : f9bd9a53-af50-4146-9d99-48effb955fa5
+    password: 4321
