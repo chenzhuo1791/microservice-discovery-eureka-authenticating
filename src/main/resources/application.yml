@@ -12,5 +12,9 @@ security:
     enabled: true
   user:
     name: user
-#    随机 : f9bd9a53-af50-4146-9d99-48effb955fa5
     password: 4321
+#    随机 : f9bd9a53-af50-4146-9d99-48effb955fa5
+
+# Tips :
+# 认证基于 spring-security , password 是当前项目最优先认证的
+# 注册到已上线，需要认证的eureka,可以使用 user:1234@ 形式，请注意和这本地项目完全是两回事儿！
